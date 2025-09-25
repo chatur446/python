@@ -2,7 +2,10 @@
 #            start with an empty dictionary and add one by one. use subjects name as key and marks as values.
 
 subject = {}
-subject.update({"phy":87})
-subject.update({"che":90})
-subject.update({"maths":91})
+x = int(input("enter phy: "))
+subject.update({"phy":x})
+y = int(input("enter che: "))
+subject.update({"che":y})
+z = int(input("enter maths: "))
+subject.update({"maths":z})
 print(list(subject.items()))
